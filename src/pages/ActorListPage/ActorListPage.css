@@ -1,0 +1,30 @@
+.actors {
+  color: limegreen;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.actors h1 {
+}
+
+.actor {
+  margin-top: -10px;
+  list-style-type: none;
+}
+
+.actor li {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.movieList {
+  list-style-type: none;
+}
+
+.movieList li {
+  font-size: 22px;
+  margin-left: 20px;
+}

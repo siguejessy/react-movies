@@ -1,0 +1,42 @@
+
+body { background-color: navy; /* Deep navy blue background */
+}
+
+.login {
+
+  color: white; /* White text color */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.login h1 {
+  margin-bottom: 20px;
+}
+
+.login input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border: 1px solid limegreen;
+}
+
+.login button {
+  background-color: navy; 
+  color: limegreen;
+  border: 1px solid limegreen;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.login button:hover {
+  background-color: limegreen;
+  color: navy;
+  border-color: limegreen;
+}
